@@ -14,7 +14,21 @@ body{
 .barra{
 	margin-top: 10px;
 }
-
+.navbar{
+	padding-top: 40px;
+	border-radius: 0;
+}
+.navbar-default{
+	background-color: #D6D6D6;
+	border-color: #fff; 
+}
+.navbar-default .navbar-nav>.active>a{
+	color: #000;
+	background-color: #fff;
+}
+.navbar-default .navbar-collapse{
+	border-color: transparent;
+}
 /*articulos*****/
 .articulo{
 	border-bottom: 1px solid black;
@@ -46,20 +60,23 @@ footer{
 	border-top: 3px solid black;
 	
 }
+.pie{
+	min-height: 250px;
+	display: block;
+}
 .lista{
 	display: inline-block;
-	margin-left: 30px;
-}
-.lista2{
-	display: inline-block;
-}
-.lista3{
-	display: inline-block;
-}
-.lista4{
-	display: inline-block;
-}
-.lista5{
-	display: inline-block;
+<<<<<<< HEAD
 	margin-top: 0;
+=======
+	padding:10px 40px;
+	float:left;
+	height: 100%;
+>>>>>>> d6f26d4ea0c7851ec84fdf40c8269c13497b9fbe
+}
+.lista ul{
+	display: block;
+
+	margin: 0;
+	padding: 0px;
 }
