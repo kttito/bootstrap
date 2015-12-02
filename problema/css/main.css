@@ -1,4 +1,4 @@
-/**{outline: 1px solid red;
+/*{outline: 1px solid red;
 }*/
 body{
 	margin: 0;
@@ -61,4 +61,5 @@ footer{
 }
 .lista5{
 	display: inline-block;
+	margin-top: 0;
 }
